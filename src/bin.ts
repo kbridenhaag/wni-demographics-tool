@@ -6,7 +6,7 @@ import { hideBin } from 'yargs/helpers'
 const main = (args: string[]) => {
   return yargs.scriptName('wni-demographics-cli')
     .usage('$0 <cmd> [args]')
-    .command('initial [file] [lol]', 'transform initial CSV', (yargs) => {
+    .command('initial [file]', 'validate initial CSV', (yargs) => {
       yargs.positional('file', {
         type: 'string',
         describe: 'the file to parse'
