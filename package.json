@@ -1,0 +1,33 @@
+{
+  "name": "wni-demographics-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": "dist/bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "papaparse": "^5.3.2",
+    "typescript": "^4.7.4",
+    "yargs": "^17.5.1",
+    "zod": "^3.17.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/papaparse": "^5.3.2",
+    "@types/yargs": "^17.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "eslint": "^8.18.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
